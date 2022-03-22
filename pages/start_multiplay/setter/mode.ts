@@ -1,5 +1,5 @@
-import type { Page } from '../../types/page.ts';
-import type { i18n } from '../../i18n/i18n.ts';
+import type { Page } from '../../../types/page.ts';
+import type { i18n } from '../../../i18n/i18n.ts';
 
 type ModeChangeProps = {
   modes: i18n['mode'];
