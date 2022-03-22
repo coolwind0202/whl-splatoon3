@@ -3,7 +3,7 @@ import type { i18n } from '../../../i18n/i18n.ts';
 
 type ModeChangeProps = {
   modes: i18n['mode'];
-  selected?: string;
+  selected?: keyof i18n['mode'];
   messages: Pick<i18n['message'], 'PLEASE_SELECT_MODE'>;
 };
 
