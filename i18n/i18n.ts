@@ -28,6 +28,10 @@ interface i18n {
   leagueModes: rankedModes;
   privateModes: privateModes;
   salmonRunModes: salmonRunModes;
+
+  message: {
+    PLEASE_SELECT_MODE: string;
+  };
 }
 
 export type { i18n };

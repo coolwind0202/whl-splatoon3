@@ -25,6 +25,10 @@ const JA: i18n = {
   salmonRunModes: {
     SALMON_RUN: 'サーモンラン',
   },
+
+  message: {
+    PLEASE_SELECT_MODE: 'マッチを選択してください。',
+  },
 };
 
 export { JA };
